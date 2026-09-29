@@ -17,4 +17,4 @@ https://scrap2cash-kabadiwalaconnect.netlify.app
 
 ## Datasets
 See the `/datasets` folder.  
-Data was collected through field research with 2 informal scrap collectors in Bhusawal–Jalgaon region (Maharashtra).
+Data was collected through field research with 3+ informal scrap collectors in Bhusawal–Jalgaon region (Maharashtra).
