@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Scrap2Cash – Kabadiwala Connect</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="phone">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <div class="logo-icon">♻</div>
+        <div>
+          <div class="logo-title">Scrap2Cash</div>
+          <div class="logo-sub">Better scrap. Fair cash.</div>
+        </div>
+      </div>
+      <button class="bell" onclick="showToast('No new notifications')">🔔</button>
+    </header>
+
+    <!-- Screens will be injected here -->
+    <main id="app"></main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-screen="home" onclick="go('home')">
+        <span>🏠</span><small>Home</small>
+      </button>
+      <button class="nav-item" data-screen="lots" onclick="go('lots')">
+        <span>📦</span><small>My lots</small>
+      </button>
+      <button class="nav-item" data-screen="priceboard" onclick="go('priceboard')">
+        <span>📊</span><small>Price board</small>
+      </button>
+      <button class="nav-item" data-screen="earnings" onclick="go('earnings')">
+        <span>₹</span><small>Earnings</small>
+      </button>
+      <button class="nav-item" data-screen="profile" onclick="go('profile')">
+        <span>👤</span><small>Profile</small>
+      </button>
+    </nav>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
